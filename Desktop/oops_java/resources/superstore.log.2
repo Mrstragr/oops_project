@@ -1,0 +1,22 @@
+Nov 17, 2025 9:55:46 PM com.superstore.Logger logException
+SEVERE: Exception occurred
+java.io.EOFException
+	at java.base/java.io.ObjectInputStream$PeekInputStream.readFully(ObjectInputStream.java:2813)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.readShort(ObjectInputStream.java:3310)
+	at java.base/java.io.ObjectInputStream.readStreamHeader(ObjectInputStream.java:912)
+	at java.base/java.io.ObjectInputStream.<init>(ObjectInputStream.java:386)
+	at com.superstore.FileHandler.loadObject(FileHandler.java:32)
+	at com.superstore.FileHandler.loadMap(FileHandler.java:64)
+	at com.superstore.Server.loadData(Server.java:34)
+	at com.superstore.Server.<init>(Server.java:28)
+	at com.superstore.Main.lambda$0(Main.java:13)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:702)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+
